@@ -1,5 +1,4 @@
-#include <stdio.h>
-                         //application for the championship
+#include <stdio.h> //application for the championship
 int main() {
   int myAge = 20;
   int receiveAge = 18;
