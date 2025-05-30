@@ -10,7 +10,7 @@ int main() {
 
     srand(time(NULL));  // Tasodifiy sonlar uchun
 
-    for (int i = 0; i < 30; i++) {
+    for (int i = 0; i < 20; i++) {
         int operation = rand() % 2;  // 0 yoki 1: faqat + yoki -
 
         num1 = rand() % 90 + 10;  // 10-99 oralig‘ida
@@ -45,11 +45,11 @@ int main() {
     }
 
     // Baholash
-    printf("You answered %d/30 questions correctly \n", correctCount);
+    printf("You answered %d/10 questions correctly \n", correctCount);
 
-    if (correctCount >= 27)
+    if (correctCount >= 17)
         printf("great!\n");
-    else if (correctCount >= 20)
+    else if (correctCount >= 14)
         printf("good!\n");
     else if (correctCount >= 10)
         printf("Not Bad!\n");
