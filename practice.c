@@ -6,6 +6,7 @@ int main() {
 
     printf("Enter your name: \n");
     fgets(name, sizeof(name), stdin);    
+   
     printf("Enter your age: \n");
     scanf("%d", &age);
 
