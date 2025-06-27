@@ -7,5 +7,4 @@ int main() {
     printf("Random number:%d\n", num);
 
     return 0;
-
 }
