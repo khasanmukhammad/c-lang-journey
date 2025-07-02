@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <math.h>
 
+float sqrtSimple(float n) {
+    float i = 0;
+    float step = 0.00001; 
+
+    while (i * i <= n) {
+        i += step;
+    }
+
+    return i;
+}
+
 int main() {
     float a, b, result;
 
@@ -13,7 +24,7 @@ int main() {
         printf("Error! Enter positive number: ");
         return 1;
     }
-    result = sqrt(a * b);
+    result = sqrtSimple(a * b);
 
     printf("Geometric mean: %f", result);
 
