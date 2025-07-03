@@ -21,5 +21,4 @@ int main() {
     printf("Sum of segments: %d\n", sum);
 
     return 0;
-
 }
