@@ -3,7 +3,7 @@
 
 double sqrtSimple(double n) {
     double x = n;
-    double step = 0.00001; // aniqlik
+    double step = 0.00001; 
     double i = 0;
 
     while (i * i <= n) {
