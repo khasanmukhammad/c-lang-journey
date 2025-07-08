@@ -3,7 +3,7 @@
 int main() {
     int years, months, weeks,  days;
     
-    printf("Enter days: " );
+    printf("Enter days: ");
     scanf("%d", &days);
 
     years = days / 365;

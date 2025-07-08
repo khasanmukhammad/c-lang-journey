@@ -1,24 +1,18 @@
 #include <stdio.h>
+int main(){
+   int num1, num2, result1, result2;
 
-
-int sumNums(int num1, int num2) {
-    return num1 + num2;
-}
-
-
-int main() {
-  
-   int num1, num2;
-
-   printf("Enter first value: ");
+   printf("Enter first number: ");
    scanf("%d", &num1);
 
-   printf("Enter second value: ");
+   printf("Enter second number: ");
    scanf("%d", &num2);
 
-   int result = sumNums(num1, num2);
+   result1 = num1 + num2;
+   result2= num1 * num2;
 
-   printf("Result: %d\n", result);
+   printf("Result of multiplication: %d\n", result1);
+   printf("Result of addtion: %d\n", result2);
 
    return 0;
 
