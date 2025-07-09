@@ -9,7 +9,7 @@ int main(){
    scanf("%d", &num2);
 
    result1 = num1 + num2;
-   result2= num1 * num2;
+   result2 = num1 * num2;
 
    printf("Result of multiplication: %d\n", result1);
    printf("Result of addtion: %d\n", result2);
