@@ -27,5 +27,6 @@ int main() {
 
     printf("Sum of all odd value: %d", total);
     printf("\n");
+    
     return 0;
 }
