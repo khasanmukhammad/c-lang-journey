@@ -6,7 +6,7 @@ int main() {
     printf("Enter a: ");
     scanf("%d", &a);
 
-    printf("Enter b: ");
+    printf("Enter b: ");    
     scanf("%d", &b);
 
     printf("Enter c: ");
